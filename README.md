@@ -6,6 +6,9 @@ Welcome to DealTracker, your go-to tool for finding the best deals on Amazon and
 
 ![DealTracker Screenshot](/public/assets/screenshot.jpeg)
 
+
+#### The Homepage
+
 ![DealTracker Homepage](/public/assets/screenshot_full.png)
 
 
