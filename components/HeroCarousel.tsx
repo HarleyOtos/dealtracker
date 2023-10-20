@@ -7,10 +7,11 @@ import Image from 'next/image';
 
 const heroImages = [
   { imgUrl: '/assets/images/hero-1.png', alt: 'person with shopping bags' },
-  { imgUrl: '/assets/images/hero-2.svg', alt: 'bag' },
-  { imgUrl: '/assets/images/hero-3.svg', alt: 'lamp' },
-  { imgUrl: '/assets/images/hero-4.svg', alt: 'air fryer' },
-  { imgUrl: '/assets/images/hero-5.svg', alt: 'chair' },
+  { imgUrl: '/assets/images/hero-2.png', alt: 'shirt' },
+  { imgUrl: '/assets/images/hero-3.png', alt: 'bag' },
+  { imgUrl: '/assets/images/hero-4.png', alt: 'chair' },
+  { imgUrl: '/assets/images/hero-5.png', alt: 'air fryer' },
+  { imgUrl: '/assets/images/hero-6.png', alt: 'watch' },
 ]
 
 const HeroCarousel = () => {
@@ -18,9 +19,9 @@ const HeroCarousel = () => {
     <div className='hero-carousel'>
       <Carousel
         showThumbs={false}
-        // autoPlay
+        autoPlay
         infiniteLoop
-        // interval={2000}
+        interval={2000}
         showArrows={false}
         showStatus={false}
         showIndicators={true}
@@ -47,4 +48,4 @@ const HeroCarousel = () => {
   )
 }
 
-export default HeroCarousel
+export default HeroCarousel;
