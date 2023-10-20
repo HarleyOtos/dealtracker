@@ -1,10 +1,13 @@
 # DealTracker
 
-![DealTracker](/assets/logo.png)
+![DealTracker](/public/assets/logo.png)
 
 Welcome to DealTracker, your go-to tool for finding the best deals on Amazon and keeping a watchful eye on price changes and product availability. This innovative Next.js 13 web application leverages advanced web scraping techniques, offering a seamless experience for savvy online shoppers, product trackers, and Amazon sellers.
 
-![DealTracker Screenshot](/assets/screenshot.jpeg)
+![DealTracker Screenshot](/public/assets/screenshot.jpeg)
+
+![DealTracker Homepage](/public/assets/screenshot_full.png)
+
 
 ## Table of Contents
 
