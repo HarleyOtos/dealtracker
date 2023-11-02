@@ -14,6 +14,7 @@ const heroImages = [
   { imgUrl: '/assets/images/hero-6.png', alt: 'watch' },
 ]
 
+// Carousel section in homepage
 const HeroCarousel = () => {
   return (
     <div className='hero-carousel'>
