@@ -2,11 +2,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-const navIcons = [
-  { src: './assets/icons/search.svg', alt: 'search' },
-  { src: './assets/icons/black-heart.svg', alt: 'heart' },
-  { src: './assets/icons/user.svg', alt: 'user' },
-]
+// const navIcons = [
+//   { src: './assets/icons/search.svg', alt: 'search' },
+//   { src: './assets/icons/black-heart.svg', alt: 'heart' },
+//   { src: './assets/icons/user.svg', alt: 'user' },
+// ]
 
 const Navbar = () => {
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
             Deal<span className='text-primary'>Tracker</span>
           </p>
         </Link>
-        <div className="flex items-center gap-5">
+        {/* <div className="flex items-center gap-5">
           {navIcons.map((icon) => (
             <Image
               key={icon.alt}
@@ -34,7 +34,7 @@ const Navbar = () => {
               className='object-contain'
             />
           ))}
-        </div>
+        </div> */}
       </nav>
     </header>
   )
