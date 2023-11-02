@@ -14,7 +14,6 @@ export async function scrapeAndStoreProduct(productUrl: string) {
   try {
     connectToDB();
 
-
     const scrapedProduct = await scrapeAmazonProduct(productUrl);
 
     if (!scrapedProduct) return;
@@ -102,7 +101,7 @@ export async function addUserEmailToProduct(productId: string, userEmail: string
     // Check for product
     const product = await Product.findById(productId);
 
-    if(!product) return;
+    if (!product) return;
 
     const userExists = product.users.some((user: User) => user.email === userEmail);
 

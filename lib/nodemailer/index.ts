@@ -3,7 +3,6 @@
 import nodemailer from 'nodemailer';
 import { EmailContent, EmailProductInfo, NotificationType } from '@/types';
 
-
 const Notification = {
   WELCOME: 'WELCOME',
   CHANGE_OF_STOCK: 'CHANGE_OF_STOCK',
@@ -14,7 +13,7 @@ const Notification = {
 export async function generateEmailBody(
   product: EmailProductInfo,
   type: NotificationType
-  ) {
+) {
   const THRESHOLD_PERCENTAGE = 40;
   // Shorten the product title
   const shortenedTitle =
@@ -101,7 +100,7 @@ export const sendEmail = async (emailContent: EmailContent, sendTo: string[]) =>
   }
 
   transporter.sendMail(mailOptions, (error: any, info: any) => {
-    if(error) return console.log(error);
+    if (error) return console.log(error);
     console.log('Email sent: ', info)
   })
 }
