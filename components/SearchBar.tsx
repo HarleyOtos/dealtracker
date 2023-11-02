@@ -20,6 +20,7 @@ const isValidAmazonProductURL = (url: string) => {
   return false;
 }
 
+// product scraping search bar
 const SearchBar = () => {
 
   const [searchPrompt, setSearchPrompt] = useState('');
@@ -66,4 +67,4 @@ const SearchBar = () => {
   )
 }
 
-export default SearchBar
+export default SearchBar;
