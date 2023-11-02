@@ -116,3 +116,7 @@ export const formatNumber = (num: number = 0) => {
     maximumFractionDigits: 0,
   });
 };
+
+export function getFullYear() {
+  return new Date().getFullYear();
+}
