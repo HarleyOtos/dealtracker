@@ -7,6 +7,7 @@ interface Props {
   product: Product;
 }
 
+// Product card component
 const ProductCard = ({ product }: Props) => {
   return (
     <Link href={`/products/${product._id}`} className='product-card'>
@@ -35,4 +36,4 @@ const ProductCard = ({ product }: Props) => {
   )
 }
 
-export default ProductCard
+export default ProductCard;
