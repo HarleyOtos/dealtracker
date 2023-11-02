@@ -9,6 +9,7 @@ interface Props {
   productId: string
 }
 
+// Tracking products modal component
 const Modal = ({ productId }: Props) => {
   let [isOpen, setIsOpen] = useState(true)
 
